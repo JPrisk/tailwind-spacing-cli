@@ -1,11 +1,11 @@
 # Tailwind Spacing CLI
 
-This project helps find the closest tailwind spacing value to any px value entered
+This project helps find the closest tailwind spacing value for any px value entered
 
 ### Installing
 
 ```
-npm i -g tailwindcss-spacing-cli
+npm i -g tailwind-spacing-cli
 ```
 
 And then
@@ -13,6 +13,8 @@ And then
 ```
 lookup 44
 ```
+
+## Built With
 
 - [Chalk](https://github.com/chalk/chalk) - Terminal string styling done right
 - [minimist](https://github.com/substack/minimist) - parse argument options

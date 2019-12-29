@@ -1,12 +1,15 @@
 {
   "name": "tailwind-spacing-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "find the closest tailwind spacing value to any px value entered",
   "main": "index.js",
   "dependencies": {
     "esm": "^3.2.25",
     "chalk": "^3.0.0",
     "minimist": "^1.2.0"
+  },
+  "bin": {
+    "lookup": "./index.js"
   },
   "devDependencies": {},
   "scripts": {
